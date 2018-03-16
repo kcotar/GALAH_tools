@@ -85,7 +85,7 @@ for sobj_multi in sobj_uniq[sob_c > 1]:
     data_class_out.add_row(sum_class_rows)
 
 # export final classification results
-data_class_out.write('zooniverse_results_20180129.fits', overwrite=True)
+data_class_out.write('zooniverse_results_20180307.fits', overwrite=True)
 
 # ----------------------------
 # -------- Final plots -------
